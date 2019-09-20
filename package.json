@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Jeremy Hicks <reysic@pm.me> (http://reysic.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pi-temperature": "^2.1.0"
+  }
 }
