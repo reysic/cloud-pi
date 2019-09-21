@@ -25,8 +25,8 @@ try {
 }
 
 // Create a message and send it to the IoT hub on interval (ms) from config
-setInterval(function(){
-  PiTemp.measure(function(err, temp) {
+setInterval(function () {
+  PiTemp.measure(function (err, temp) {
     if (err) {
       console.error(err);
     } else {
@@ -47,7 +47,7 @@ setInterval(function(){
         } else {
           console.log('Message sent');
         }
-      }
+      });
     }
   });
 }, config.interval);
