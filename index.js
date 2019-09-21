@@ -2,7 +2,7 @@
 
 
 // https://github.com/Azure/azure-iot-sdk-node
-const Client = require('azure-iot-device').Client;
+const DeviceClient = require('azure-iot-device').Client;
 const ConnectionString = require('azure-iot-device').ConnectionString;
 const Message = require('azure-iot-device').Message;
 const MqttProtocol = require('azure-iot-device-mqtt').Mqtt;
