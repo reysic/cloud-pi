@@ -10,6 +10,8 @@
   "author": "Jeremy Hicks <reysic@pm.me> (http://reysic.com)",
   "license": "ISC",
   "dependencies": {
+    "azure-iot-device": "^1.11.2",
+    "azure-iot-device-mqtt": "^1.10.3",
     "pi-temperature": "^2.1.0"
   }
 }
