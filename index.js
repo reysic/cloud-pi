@@ -14,7 +14,7 @@ const PiTemp = require("pi-temperature");
 var connectionString = process.argv[2] || process.env['AzureIoTHubDeviceConnectionString'];
 
 // Create device client for communicating with Azure IoT hub
-var client = DeviceClient.fromConnectionString(connectionString, Mqtt);
+var client = DeviceClient.fromConnectionString(connectionString, MqttProtocol);
 
 // Read in configuration in config.json
 try {
