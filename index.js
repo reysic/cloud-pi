@@ -17,6 +17,7 @@ var connectionString = process.argv[2] || process.env['AzureIoTHubDeviceConnecti
 var client = DeviceClient.fromConnectionString(connectionString, MqttProtocol);
 
 // Read in configuration in config.json
+var config;
 try {
   config = require('./config.json');
 } catch (err) {
