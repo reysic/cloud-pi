@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node":">=10.6",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,8 +15,8 @@
   "author": "Jeremy Hicks <reysic@pm.me> (http://reysic.com)",
   "license": "MIT",
   "dependencies": {
-    "@azure/event-hubs": "^2.1.1",
-    "express": "^4.17.1",
-    "ws": "^7.1.2"
+    "@azure/event-hubs": ">=2.1.1",
+    "express": ">=4.17.1",
+    "ws": ">=7.1.2"
   }
 }
